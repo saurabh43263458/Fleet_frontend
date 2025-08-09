@@ -7,7 +7,11 @@ import UserLogin from "./pages/UserLogin"
 import UserSignUp from "./pages/UserSignUp"
 import CaptainLogin from "./pages/CaptainLogin"
 import CaptainSignUp from './pages/CaptainSignUP'
+<<<<<<< HEAD
 import Start from './pages/Start'
+=======
+import Start from './pages/Start.jsx'
+>>>>>>> 7ae5b29ce78c9e42900599cdb2a4f099f040daeb
 import UserProtectedWrapper from './pages/UserProtectedWrapper'
 import UserLogout from './pages/UserLogout'
 import CaptainProtectedWrappers from './pages/CaptainProtectedWrappers'
