@@ -7,7 +7,7 @@ import UserLogin from "./pages/UserLogin"
 import UserSignUp from "./pages/UserSignUp"
 import CaptainLogin from "./pages/CaptainLogin"
 import CaptainSignUp from './pages/CaptainSignUP'
-import Start from './pages/start'
+import Start from './pages/Start'
 import UserProtectedWrapper from './pages/UserProtectedWrapper'
 import UserLogout from './pages/UserLogout'
 import CaptainProtectedWrappers from './pages/CaptainProtectedWrappers'
