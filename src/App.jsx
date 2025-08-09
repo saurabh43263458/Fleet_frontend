@@ -42,7 +42,7 @@ const App = () => {
         <Route path='/captain-home' element={
           <CaptainProtectedWrappers>
             <CaptainHome />
-            <CaptainDetails />
+            
           </CaptainProtectedWrappers>
         } />
         <Route path='/captain-logout' element={
