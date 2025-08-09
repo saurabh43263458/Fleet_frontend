@@ -249,7 +249,7 @@ async function createRide() {
     
   return (
     <div className='h-screen relative '>
-             {!panel && <div ref={profilerRef} className=" absolute right-0 top-[-110px] z-1  translate-y-full  px-3 py-6 "> 
+             {!panel && <div className=" absolute right-0 top-[-110px] z-1  translate-y-full  px-3 py-6 "> 
               <UserLogout user={user} />
             </div>}
             
