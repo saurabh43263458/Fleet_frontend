@@ -3,7 +3,11 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 // Placeholder user data. In a real app, this would come from a prop or context.
-
+const DUMMY_USER_DATA = {
+  name: "Jane Doe",
+  email: "jane.doe@example.com",
+  avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d", // A random avatar URL
+};
 
 const UserLogout = (props) => {
   const navigate = useNavigate();
