@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@react-google-maps/api": "^2.20.7",
     "@tailwindcss/postcss": "^4.0.15",
     "@tailwindcss/vite": "^4.0.15",
