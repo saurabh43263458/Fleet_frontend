@@ -11,7 +11,7 @@ const Home = () => {
 
             <div className=' w-full absolute bottom-0 bg-white flex item-center justify-around'> 
               <div className='w-[80%] '>
-              <h2 className='text-2xl font-bold my-6'>Welcome to JetCab </h2>
+              <h2 className='text-2xl font-bold my-6'>Welcome to Fleet</h2>
               <Link to="/login" className='flex justify-center items-center w-full mb-5 bg-[#00B894] text-white rounded-2xl text-2xl font-bold py-3'>Continue</Link>
               </div>
             </div>
