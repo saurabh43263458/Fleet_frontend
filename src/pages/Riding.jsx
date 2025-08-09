@@ -159,10 +159,10 @@ const Riding = () => {
           </button>
         ) : (
           <div className="mt-5 text-center">
-            <h2 className="text-green-600 font-bold text-lg mb-3">Payment Successful</h2>
+            <h2 className="text-[#00B894] font-bold text-lg mb-3">Payment Successful</h2>
             <button
               onClick={() => navigate('/start-home')}
-              className="bg-blue-600 mt-5 w-full text-white font-semibold py-3 rounded-lg shadow-md transition-transform transform hover:scale-[1.02]"
+              className="bg-[#2988d1] mt-4 w-full text-white font-semibold py-3 rounded-lg shadow-md transition-transform transform hover:scale-[1.02]"
             >
               Go to Home
             </button>
