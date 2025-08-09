@@ -100,11 +100,11 @@ const CaptainHome = () => {
                     <i className="text-lg font-medium ri-logout-box-r-line"></i>
                 </Link>
             </div>
-           <div className='h-3/5'>
+           <div className='h-[55%]'>
                 <LiveTracking/>
             </div>
-            <div className='h-2/5 p-6 overflow-hidden '>
-                <CaptainDetails  />
+            <div className='h-[45%] p-6 mb-2 '>
+                <CaptainDetails  captain={captain}/>
             </div>
             <div ref={ridePopupPanelRef} className='fixed w-full z-10 bottom-0 translate-y-full bg-white px-3 py-10 pt-12'>
                 <RidePopUp
