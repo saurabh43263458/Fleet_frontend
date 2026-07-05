@@ -1,9 +1,10 @@
 import React from 'react';
 
-const LookingForDriver = ({ pickup, destination, fare, setVehicleFound }) => {
+const LookingForDriver = ({ pickup, destination, fare, setVehicleFound, choosevehicle }) => {
   const displayPickup = pickup || "Pickup location not set";
   const displayDestination = destination || "Destination not set";
   const displayFare = fare != null ? `₹${fare}` : "Fare not available";
+  const vehicleImage = choosevehicle?.image || "/img1/car.png";
 
   return (
     <div>
@@ -19,7 +20,7 @@ const LookingForDriver = ({ pickup, destination, fare, setVehicleFound }) => {
       <div className="flex gap-2 justify-between flex-col items-center">
         <img
           className="h-20"
-          src="https://swyft.pl/wp-content/uploads/2023/05/how-many-people-can-a-uberx-take.jpg"
+          src={vehicleImage}
           alt="vehicle"
         />
 

@@ -11,8 +11,7 @@ const Vehicletype = ({
 }) => {
   const vehicleLink = {
     bike: {
-      image:
-        'https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_368,w_552/v1649231091/assets/2c/7fa194-c954-49b2-9c6d-a3b8601370f5/original/Uber_Moto_Orange_312x208_pixels_Mobile.png',
+      image: '/img1/bike.png',
       name: 'Bike',
       price: parseInt(fare.Bike),
       capacity: '1',
@@ -20,8 +19,7 @@ const Vehicletype = ({
       message: 'Best for short trips'
     },
     car: {
-      image:
-        'https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_552,w_552/v1555367310/assets/30/51e602-10bb-4e65-b122-e394d80a9c47/original/Final_UberX.png',
+      image: '/img1/car.png',
       name: 'Car',
       price: parseInt(fare.Car),
       capacity: '4',
@@ -29,8 +27,7 @@ const Vehicletype = ({
       message: 'Comfortable ride for small groups'
     },
     Auto: {
-      image:
-        'https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_368,w_552/v1648431773/assets/1d/db8c56-0204-4ce4-81ce-56a11a07fe98/original/Uber_Auto_558x372_pixels_Desktop.png',
+      image: '/img1/auto.png',
       name: 'Auto',
       price: parseInt(fare.Auto),
       capacity: '3',
@@ -38,8 +35,7 @@ const Vehicletype = ({
       message: 'Affordable and convenient'
     },
     Van: {
-      image:
-        'https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_368,w_552/v1682350114/assets/c2/296eac-574a-4a81-a787-8a0387970755/original/UberBlackXL.png',
+      image: '/img1/van.png',
       name: 'Van',
       price: parseInt(fare.Van),
       capacity: '6',

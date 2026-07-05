@@ -63,9 +63,9 @@ const Start = () => {
   // Fetch suggestions when pickup or drop changes and panel is open
   useEffect(() => {
   let query = "";
-  if (panel && activeInput === "pickup" && pickup.length > 0) {
+  if (panel && activeInput === "pickup" && pickup.length >= 3) {
     query = pickup;
-  } else if (panel && activeInput === "drop" && drop.length > 0) {
+  } else if (panel && activeInput === "drop" && drop.length >= 3) {
     query = drop;
   } else {
     setLocationSuggestions([]);
@@ -358,7 +358,8 @@ async function createRide() {
                     destination={drop}
                     fare={fare}
                     vehicleType={confirmedvehicle}
-                    setVehicleFound={setVehicleFound} />
+                    setVehicleFound={setVehicleFound}
+                    choosevehicle={choosevehicle} />
             </div>
       <div ref={waitingForDriverRef} className='fixed w-full  rounded-t-3xl z-6 bottom-0  bg-white px-3 py-6 pt-12'>
                 <WaitingForDriver

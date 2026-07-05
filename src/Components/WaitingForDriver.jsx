@@ -1,6 +1,15 @@
 import React from 'react'
 
 const WaitingForDriver = (props) => {
+  const vehicleImages = {
+    Car: '/img1/car.png',
+    Motorcycle: '/img1/bike.png',
+    Bike: '/img1/bike.png',
+    Auto: '/img1/auto.png',
+    Van: '/img1/van.png'
+  };
+  const vehicleImage = vehicleImages[props.ride?.captain.vehicle.vehicleType] || '/img1/car.png';
+
   return (
     <div className='rounded-t-3xl'>
       <h5 className='p-1 text-center w-[93%] absolute top-0' onClick={() => {
@@ -8,7 +17,7 @@ const WaitingForDriver = (props) => {
       }}><i className="text-3xl text-gray-200 ri-arrow-down-wide-line"></i></h5>
 
       <div className="flex items-center justify-between gap-4">
-  <img className='h-20' src="https://swyft.pl/wp-content/uploads/2023/05/how-many-people-can-a-uberx-take.jpg" alt="" />
+  <img className='h-20' src={vehicleImage} alt="" />
   <div className="text-right flex-1">
     <h2 className="text-xl font-semibold capitalize text-gray-900">
       {props.ride?.captain.fullname.firstname} {props.ride?.captain.fullname.lastname}
